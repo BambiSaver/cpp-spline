@@ -1,6 +1,8 @@
 #include "Bezier.h"
 #include <iostream>
 
+using namespace cppspline;
+
 Bezier::Bezier()
 : Curve()
 {

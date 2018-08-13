@@ -1,5 +1,7 @@
 #include "Curve.h"
 
+using namespace cppspline;
+
 Curve::Curve()
 : _steps(100)
 {

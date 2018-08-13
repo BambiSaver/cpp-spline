@@ -1,6 +1,8 @@
 #include "BSpline.h"
 #include <iostream>
 
+using namespace cppspline;
+
 BSpline::BSpline()
 : Curve()
 {

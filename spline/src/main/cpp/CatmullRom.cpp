@@ -1,6 +1,8 @@
 #include "CatmullRom.h"
 #include <iostream>
 
+using namespace cppspline;
+
 CatmullRom::CatmullRom()
 : Curve()
 {

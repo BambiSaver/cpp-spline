@@ -2,6 +2,8 @@
 #include <cmath>
 #include <sstream>
 
+using namespace cppspline;
+
 Vector::Vector()
 : x(0)
 , y(0)
@@ -172,35 +174,35 @@ std::string Vector::toString() const
 
 Vector operator+(const Vector& v1, const Vector& v2)
 {
-	Vector v=v1;
+    Vector v=v1;
 	v+=v2;
 	return v;
 }
 
 Vector operator-(const Vector& v1, const Vector& v2)
 {
-	Vector v=v1;
+    Vector v=v1;
 	v-=v2;
 	return v;
 }
 
 Vector operator*(const Vector& v1, double value)
 {
-	Vector v=v1;
+    Vector v=v1;
 	v*=value;
 	return v;
 }
 
 Vector operator/(const Vector& v1, double value)
 {
-	Vector v=v1;
+    Vector v=v1;
 	v/=value;
 	return v;
 }
 
 Vector operator*(double value, const Vector& v1)
 {
-	Vector v=v1;
+    Vector v=v1;
 	v*=value;
 	return v;
 }

@@ -3,6 +3,8 @@
 #include "../../main/cpp/BSpline.h"
 #include "../../main/cpp/CatmullRom.h"
 
+using namespace cppspline;
+
 void demo_bezier();
 void demo_bspline();
 void demo_catmullrom();

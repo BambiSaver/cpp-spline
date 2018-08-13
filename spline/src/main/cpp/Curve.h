@@ -5,6 +5,9 @@
 #include <vector>
 #include <cassert>
 
+namespace cppspline {
+
+
 class Curve
 {
 public:
@@ -42,5 +45,7 @@ public:
 	void increment_steps(int steps) { _steps+=steps; }
 	void set_steps(int steps) { _steps = steps; }
 };
+
+}
 
 #endif

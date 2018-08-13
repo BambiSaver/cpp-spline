@@ -3,6 +3,9 @@
 
 #include "Curve.h"
 
+namespace cppspline {
+
+
 class Bezier : public Curve
 {
 public:
@@ -15,5 +18,8 @@ protected:
 protected:
 	Vector interpolate(double u, const Vector& P0, const Vector& P1, const Vector& P2, const Vector& P3);
 };
+
+
+}
 
 #endif

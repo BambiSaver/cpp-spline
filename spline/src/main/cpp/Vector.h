@@ -3,6 +3,9 @@
 
 #include <string>
 
+namespace cppspline {
+
+
 class Vector
 {
 public:
@@ -47,10 +50,13 @@ public:
 	double length() const;
 };
 
-Vector operator+(const Vector& v1, const Vector& v2);
-Vector operator-(const Vector& v1, const Vector& v2);
-Vector operator*(const Vector& v1, double value);
-Vector operator*(double value, const Vector& v1);
-Vector operator/(const Vector& v1, double value);
+}
+
+
+cppspline::Vector operator+(const cppspline::Vector& v1, const cppspline::Vector& v2);
+cppspline::Vector operator-(const cppspline::Vector& v1, const cppspline::Vector& v2);
+cppspline::Vector operator*(const cppspline::Vector& v1, double value);
+cppspline::Vector operator*(double value, const cppspline::Vector& v1);
+cppspline::Vector operator/(const cppspline::Vector& v1, double value);
 
 #endif
